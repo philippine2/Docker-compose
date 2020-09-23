@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cp -v ~/.ssh/fall2019 system-environment/.
+docker-compose up $1
+rm system-environment/fall2019
